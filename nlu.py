@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import NMF
 
-print("Hello World")
+print("ШИШИГА ИДИ НАХУЙ")
 
 # Load the dataset
 data = pd.read_csv('nlu_test.csv')
