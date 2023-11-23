@@ -14,7 +14,7 @@ def paraphrase(text, beams=5, grams=4, do_sample=False):
     out = model.generate(**x, encoder_no_repeat_ngram_size=grams, num_beams=beams, max_length=max_size, do_sample=do_sample)
     return tokenizer.decode(out[0], skip_special_tokens=True)
 
-dataset = pd.read_csv('../train_dataset_train.csv', delimiter=';')
+dataset = pd.read_csv('DataSets/train.csv', delimiter=';')
 
 new = dataset.iloc[:5]
 
