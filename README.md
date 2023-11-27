@@ -1,2 +1,2 @@
-# hackaton-nlu-model
-NLU Model for hackaton
+# cp-nlp-model
+NLP Model for hackaton
